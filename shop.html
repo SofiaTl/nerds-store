@@ -41,7 +41,7 @@
 <section class="shop">
     <div class="shop-container">
 
-        <aside class="filter">
+        <form class="filter">
 
             <h4>СТОИМОСТЬ:</h4>
 
@@ -66,38 +66,31 @@
             <label><input type="checkbox"> Галерея</label>
             <label><input type="checkbox"> Корзина</label>
 
-            <button class="show-btn">ПОКАЗАТЬ</button>
+            <button type="submit" class="show-btn">ПОКАЗАТЬ</button>
 
-        </aside>
+       </form>
 
         <div class="products">
 
             <div class="product-card">
-                <img src="./img/sedona.jpg" alt="">
+                <img src="./img/sedona.jpg">
+
+                <div class="card-content">
                 <h3>SEDONA</h3>
                 <p>Информационный сайт для туристов</p>
                 <button class="btn">9 900 ₽</button>
+                </div>
             </div>
 
-            <div class="product-card">
-                <img src="./img/pink (2).png" alt="">
-            </div>
+                <img src="./img/pink (2).png" class="product-card">
 
-             <div class="product-card">
-                <img src="./img/barbershop.jpg" alt="">
-            </div>
+                <img src="./img/barbershop.jpg" class="product-card">
 
-            <div class="product-card">
-                <img src="./img/mishka.jpg" alt="">
-            </div>
+                <img src="./img/mishka.jpg"class="product-card">
 
-            <div class="product-card">
-                <img src="./img/aplus.jpg" alt="">
-            </div>
+                <img src="./img/aplus.jpg" class="product-card">
 
-            <div class="product-card">
-                <img src="./img/kvast.jpg" alt="">
-            </div>
+                <img src="./img/kvast.jpg" class="product-card">
         </div>
 
     </div>
@@ -115,19 +108,17 @@
         <button class="btn">НАПИШИТЕ НАМ</button>
     </div>
 
-    <div class="map-marker">
-        <img src="./img/map-marker.png" alt="Map-marker">
-    </div>
+        <img src="./img/map-marker.png" class="map-marker" alt="Map-marker">
 </section>
 
 <footer class="footer">
     <div class="footer-container">
 
-        <div class="social">
-            <a href="#"><i class="fa-brands fa-vk"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+          <ul class="social">
+    <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+</ul>
 
         <div class="footer-text">
             <h3>Давайте дружить, это выгодно!</h3>
